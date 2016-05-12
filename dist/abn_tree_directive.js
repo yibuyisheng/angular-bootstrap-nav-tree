@@ -2,7 +2,7 @@
   var module,
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
-  module = angular.module('angularBootstrapNavTree', []);
+  module = angular.module('angularBootstrapNavTree', ['ngAnimate']);
 
   module.directive('abnTree', [
     '$timeout', function($timeout) {
